@@ -64,15 +64,9 @@ public class ExecuteQuery01 {
 
 
 
-
-
-
-
-
-
         //  Step 5: Close the connection
-//        con.close();
-//        st.close();
+        con.close();
+        st.close();
 
 
 
