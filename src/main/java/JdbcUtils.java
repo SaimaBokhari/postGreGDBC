@@ -134,7 +134,7 @@ public class JdbcUtils {
 
     // Create a method to get column data into a list
     public static List<Object> getColumnList(String columnName, String tableName){
-        ResultSet resultSet=;
+        ResultSet resultSet = null;
         List<Object> columnData = new ArrayList<>();
 
         String query ="SELECT "+columnName+" FROM "+tableName;
